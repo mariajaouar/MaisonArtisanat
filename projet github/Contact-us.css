@@ -1,0 +1,90 @@
+*{
+    font-family: Arial;
+}
+body{
+   background-image: url(3-modern-white-office-desk-top-table-with--and-other-supplies-worachat-nannuan.jpg) ;
+    background-size: cover;
+    margin: 0;
+}
+
+#overlay{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    background-color: rgba(229,222,199,0.4);
+}
+
+form{
+
+    max-width: 550px;
+    width: 100%;
+    background:linear-gradient(to bottom,#e6d7c5,#F2EEE3);
+    margin: 17vh auto 0 auto;
+    padding: 15px;
+    border-radius: 3px;
+    box-sizing: border-box;
+}
+
+h1{
+    margin: 0;
+    text-align: center;
+    font-family: Trebuchet MS, sans-serif; 
+     color: #555555;
+}
+label{
+    display: block;
+    margin: 20px 0;
+    font-family: Trebuchet MS, sans-serif; 
+    color: #555555;
+}
+
+input, textarea{
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    outline: none;
+    resize: none;
+    border: none;
+    border-bottom: 1px solid #D3D3D3;
+     background-color:rgba(255, 253, 247, 0);
+}
+
+input[type="text"]:focus, textarea:focus {
+      background-color:#EEEEEE;
+    border-bottom: 1px solid #555555;
+}
+
+textarea::-webkit-scrollbar{
+    width: 4px;
+}
+textarea::-webkit-scrollbar-thumb {
+    background-color: #555555;
+}
+.center{
+    text-align: center;
+}
+
+input[type="submit"]{
+    margin-top: 30px;
+    width: 90%;
+    max-width: 200px;
+    background: linear-gradient(to right, #e6d7c5,#F2EEE3);
+    color: #555555;
+    font-size: 17px;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+.error{
+    color: red;
+}
+
+.error-border{
+    border-bottom: 1px solid red;
+}
+
+#success{
+    color: #28A745;
+}
+
+
